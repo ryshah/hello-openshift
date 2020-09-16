@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name:
-    image: image-registry.openshift-image-registry.svc:5000/<your namespace>/hello-openshift
+    image: image-registry.openshift-image-registry.svc:5000/shah/hello-openshift
     env:
       # learn about the downward api https://kubernetes.io/docs/tasks/inject-data-application/environment-variable-expose-pod-information/#the-downward-api
     - name: HELLO
